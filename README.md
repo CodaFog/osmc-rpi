@@ -8,9 +8,9 @@ It's really experimental, don't expect a real working OSMC version.
 1. Install [Docker](https://www.docker.com/) on your Raspberry pi.
 
 2. Create the directory used to store the kodi configuration files :
-
+```
     mkdir -p /home/pi/osmc-rpi/config
-
+```
 3. You can define a specific volume where Kodi can access :
 
     /home/pi/osmc-rpi/data
@@ -28,7 +28,7 @@ It's really experimental, don't expect a real working OSMC version.
 
 1. Install [Docker](https://www.docker.com/) on your Raspberry pi.
 
-2. Clone the Git 
+2. Clone the Git :
 ```
     git clone https://github.com/CodaFog/osmc-rpi.git
 ```
